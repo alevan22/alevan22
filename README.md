@@ -23,7 +23,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ## Certifications
-- [Secuirty+] Certifications/CompTIA Security+ ce certificate.pdf
+- [Secuirty+] Certifications/CompTIA Security+ ce certificate.pdf (https://github.com/alevan22/alevan22/blob/main/Certifications/CompTIA%20Security%2B%20ce%20certificate.pdf)
 - 
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
