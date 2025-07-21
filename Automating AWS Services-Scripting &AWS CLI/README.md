@@ -19,7 +19,7 @@ This lab demonstrates how to automate AWS service operations using the AWS Conso
 
 ## 🧪 Tasks Completed
 
-### ✅ Task 1: Connect to EC2 via Session Manager
+### ✅ 1: Connect to EC2 via Session Manager
 
 - Connected to EC2 using Systems Manager Session Manager
 
@@ -27,7 +27,7 @@ This lab demonstrates how to automate AWS service operations using the AWS Conso
 
 ---
 
-### ✅ Task 2: Create EC2 Key Pairs via 3 Methods
+### ✅ 2: Create EC2 Key Pairs via 3 Methods
 
 #### • Console
 - Created key pair `console` using Console UI  
@@ -51,7 +51,7 @@ cat create-keypair.py
 
 ---
 
-### ✅ Task 3: Manage S3 via CLI
+### ✅ 3: Manage S3 via CLI
 
 ```bash
 aws s3 mb s3://data-123
@@ -63,7 +63,7 @@ aws s3 sync . s3://data-123
 
 ---
 
-### ✅ Task 4: Automate EBS Snapshots
+### ✅ 4: Automate EBS Snapshots
 
 * Manual snapshot via Console
 * Snapshot via CLI:
@@ -83,7 +83,7 @@ cat snapshotter.py
 
 ---
 
-### ✅ Task 5: EC2 Automation with The Stopinator
+### ✅ 5: EC2 Automation with The Stopinator
 
 * Tagged EC2 instance and used `stopinator.py` to stop or terminate based on tag:
 
@@ -96,7 +96,7 @@ cat stopinator.py
 
 ---
 
-### ✅ Task 6: Custom CloudWatch Metrics
+### ✅ 6: Custom CloudWatch Metrics
 
 * Metric creation:
 
@@ -114,7 +114,7 @@ aws cloudwatch put-metric-data --namespace Lab --metric-name ALLIE --value 42
 
 ---
 
-### ✅ Task 7: View Security Credentials
+### ✅ 7: View Security Credentials
 
 * Accessed temporary credentials via instance metadata:
 
@@ -126,7 +126,7 @@ aws cloudwatch put-metric-data --namespace Lab --metric-name ALLIE --value 42
 
 ---
 
-### ✅ Task 8: CLI Help and Documentation
+### ✅ 8: CLI Help and Documentation
 
 ```bash
 aws help
