@@ -1,35 +1,130 @@
-# 🔄 AWS CloudFormation Drift Detection & Auto-Remediation
 
-## 📘 Overview
-This project automatically detects and remediates drift in CloudFormation stacks using AWS-native services. It’s designed to maintain compliance and integrity of cloud infrastructure.
+# ☁️ CloudFormation Drift Detection Lab
 
-## ☁️ Tech Stack
-- AWS CloudFormation
-- AWS Lambda (Python)
-- Amazon EventBridge
-- AWS Config (Optional Extension)
-- CloudWatch
+This project implements an automated CloudFormation drift detection solution using **AWS Lambda**, **SNS**, and **EventBridge**, with alerting for drifted resources.
 
-## 🧰 Features
-- Detects stack drifts via scheduled EventBridge rule
-- Lambda analyzes drift result and triggers remediation
-- Sends alerts/logs via CloudWatch
-- Configurable for tagging and IAM enforcement
 
-## 🧠 Security Concepts Applied
-- IAM least privilege for Lambda execution role
-- IaC integrity monitoring
-- Event-driven detection & response
+---
 
-## 📸 Demo
-![CloudWatch Alert Screenshot](./screenshots/alert-demo.png)
+## 🧱 `drift-detection-template.yaml`
 
-## 🗺️ Architecture
-See [`architecture/diagram.png`](architecture/diagram.png) and [`explanation.md`](architecture/explanation.md) for system flow.
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Sample template to demonstrate drift detection
 
-## 📦 How to Deploy
-1. Deploy `drift-remediation.yml` in CloudFormation
-2. Set up EventBridge rule using `eventbridge/rule.json`
-3. Ensure your Lambda role has appropriate permissions
+Resources:
+  SampleBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: drift-detection-demo-bucket
+```
+
+---
+
+## 🔐 `lambda-execution-role.json`
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudformation:DetectStackDrift",
+        "cloudformation:DescribeStackDriftDetectionStatus",
+        "cloudformation:DescribeStackResources",
+        "sns:Publish"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "logs:*",
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+---
+
+## 🐍 `lambda_function.py`
+
+```python
+import boto3
+import time
+import os
+
+cf = boto3.client('cloudformation')
+sns = boto3.client('sns')
+
+STACK_NAME = os.environ['STACK_NAME']
+SNS_TOPIC_ARN = os.environ['SNS_TOPIC_ARN']
+
+def lambda_handler(event, context):
+    print(f"Starting drift detection for stack: {STACK_NAME}")
+    drift_detection = cf.detect_stack_drift(StackName=STACK_NAME)
+    detection_id = drift_detection['StackDriftDetectionId']
+
+    while True:
+        status_response = cf.describe_stack_drift_detection_status(StackDriftDetectionId=detection_id)
+        status = status_response['DetectionStatus']
+        if status == 'DETECTION_COMPLETE':
+            break
+        time.sleep(5)
+
+    drift_status = status_response['StackDriftStatus']
+    print(f"Drift Status: {drift_status}")
+
+    if drift_status == 'DRIFTED':
+        resources = cf.describe_stack_resources(StackName=STACK_NAME)
+        drifted_resources = [res for res in resources['StackResources'] if res['ResourceStatus'] != 'CREATE_COMPLETE']
+
+        message = f"[ALERT] Stack {STACK_NAME} is DRIFTED.\n"
+        for r in drifted_resources:
+            message += f"- {r['LogicalResourceId']} ({r['ResourceType']}): {r['ResourceStatus']}\n"
+
+        sns.publish(
+            TopicArn=SNS_TOPIC_ARN,
+            Subject=f"Drift Alert: {STACK_NAME}",
+            Message=message
+        )
+```
+
+---
+
+## 📬 `sns_setup.sh`
+
+```bash
+#!/bin/bash
+
+TOPIC_NAME=DriftDetectionAlertTopic
+EMAIL=your_email@example.com
+
+# Create topic
+aws sns create-topic --name $TOPIC_NAME
+
+# Subscribe email
+aws sns subscribe \
+  --topic-arn arn:aws:sns:us-east-1:YOUR_ACCOUNT_ID:$TOPIC_NAME \
+  --protocol email \
+  --notification-endpoint $EMAIL
+```
+
+> ⚠️ Replace `YOUR_ACCOUNT_ID` and `your_email@example.com` with your actual values.
+
+---
+
+
+
+---
+
+## ✅ Summary
+
+This setup automatically:
+
+* Detects stack drift
+* Waits for detection to complete
+* Notifies via email if drifted resources are found
 
 
