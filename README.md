@@ -5,28 +5,8 @@
 ---
 
 🎓 **Virginia Tech Graduate** | 🔐 **Cybersecurity & Cloud Enthusiast**  
-💼 **PwC – Digital Assurance & Transparency Associate**  
+💼 **PwC – Digital Assurance Associate |   
 📍 Arlington, VA | 📁 Security Engineering & Cloud Projects
-
----
-
-## 🧭 About Me
-
-I’m a recent graduate from Virginia Tech with a B.S. in Business Information Technology – Cybersecurity (4.0 GPA, Summa Cum Laude). Currently working at PwC, I focus on IT risk and controls for large financial services firms, while building hands-on experience in cloud security, threat detection, and automation through labs and independent projects.
-
-I'm actively pursuing Security Engineer and Cloud Security roles where I can leverage my technical curiosity, cloud expertise, and drive to build resilient systems.
-
----
-
-## 🛠️ Skills & Focus Areas
-
-| Skill Area | Tools / Experience |
-|------------|---------------------|
-| **Cloud Security** | AWS IAM, KMS, S3, CloudTrail, Cognito, Lambda, CloudFormation |
-| **Security Engineering** | Suricata, Nessus, Metasploit, OPNsense, Security Onion |
-| **Threat Detection & IR** | MITRE ATT&CK, SIEM, IDS/IPS, SOC workflows |
-| **Risk & Compliance** | NIST 800-53/171, COBIT, ITGCs, SOX, Audit Automation |
-| **Automation & Reporting** | Power BI, Power Automate, Python, VBA, Bash |
 
 ---
 
@@ -35,12 +15,40 @@ I'm actively pursuing Security Engineer and Cloud Security roles where I can lev
 | Project | Description |
 |--------|-------------|
 | [OPNsense HA Firewall Cluster](https://github.com/alevan22/projects/tree/main/opnsense-ha-firewall-cluster) | Deployed a redundant firewall setup using CARP, pfSync, and XML-RPC sync in a virtual lab. |
-| [Suricata IDS Tuning](https://github.com/alevan22/projects/tree/main/Suricata_IDS_Rule_Tuning) | Tuned detection rules for port scans and malware, tested traffic using Kali Linux. |
-| [AWS IAM Misconfig Remediation](https://github.com/alevan22/projects/tree/main/IAM_Misconfiguration_Remediation_AWS) | Identified and remediated overprivileged IAM roles in AWS. |
-| [Power BI Compliance Dashboard](https://github.com/alevan22/projects/tree/main/PowerBI_Compliance_Dashboard) | Visualized SOX/NIST control gaps and remediation trends using audit log data. |
-| [AWS Cognito + API Gateway Auth](https://github.com/alevan22/projects/tree/main/AWS_Cognito_API_Gateway_Auth_Lab) | Built secure API access control using Cognito tokens and authorizers. |
-| [Penetration Test – DVWA](https://github.com/alevan22/projects/tree/main/penetration-testing-dvwa) | Led a web server penetration test using Nessus, Burp Suite, and Metasploit. |
-| [AWS Drift Detection Automation](https://github.com/alevan22/projects/tree/main/aws-cloudformation-drift-detection) | Auto-remediated CloudFormation drift using EventBridge and Lambda. |
+| [Suricata IDS Tuning](https://github.com/alevan22/projects/tree/main/Suricata_IDS_Rule_Tuning) | Tuned Suricata IDS rules for port scans and malware, simulating attacks with Kali Linux. |
+| [AWS IAM Misconfiguration Remediation](https://github.com/alevan22/projects/tree/main/IAM_Misconfiguration_Remediation_AWS) | Audited and remediated IAM misconfigurations following least privilege. |
+| [Power BI Compliance Dashboard](https://github.com/alevan22/projects/tree/main/PowerBI_Compliance_Dashboard) | Visualized NIST/SOX control gaps using audit data and tracked remediation metrics. |
+| [AWS Cognito + API Gateway Auth Lab](https://github.com/alevan22/projects/tree/main/AWS_Cognito_API_Gateway_Auth_Lab) | Built secure API authentication using Cognito user pools and JWTs. |
+| [Penetration Testing – DVWA](https://github.com/alevan22/projects/tree/main/penetration-testing-dvwa) | Identified and documented web app vulnerabilities using Nessus, Burp Suite, and Metasploit. |
+| [CloudFormation Drift Detection Automation](https://github.com/alevan22/projects/tree/main/aws-cloudformation-drift-detection) | Deployed automated AWS drift detection and remediation using Lambda and EventBridge. |
+
+---
+
+## 🧠 Skills & Focus Areas
+
+| Skill Area | Tools / Experience |
+|------------|---------------------|
+| **Cloud Security** | AWS IAM, KMS, S3, CloudTrail, Lambda, Cognito, CloudFormation |
+| **Security Engineering** | OPNsense, Suricata, Nessus, Security Onion, IDS/IPS |
+| **Threat Detection & IR** | MITRE ATT&CK, SIEM, alert tuning, SOC simulation |
+| **Risk & Compliance** | NIST 800-53/171, COBIT, SOX, ITGC audits |
+| **Automation & Reporting** | Python, Power BI, Power Automate, Bash, VBA |
+
+---
+
+## 💼 Experience
+
+### **PwC – Digital Assurance & Transparency Associate**  
+*Jul 2024 – Present* | Washington, DC  
+- Supported ITGC and cloud compliance testing for top-tier financial institutions  
+- Automated control reporting and remediation tracking using Power BI and Power Automate  
+- Helped secure a multimillion-dollar client contract by translating technical remediation plans into executive-aligned proposals  
+- Collaborated cross-functionally with DevOps, engineering, and compliance teams to assess IAM, change management, and access reviews in hybrid enviroments 
+
+### **KPMG – Technology Risk Consulting Intern**  
+*Summer 2023* | Baltimore, MD
+- Assisted with vulnerability assessments using Nessus to identify misconfigurations, unpatched software, and compliance gaps in client environments. Reviewed and documented findings for remediation tracking and reporting to client stakeholders.
+- Delivered client-ready reports and supported project tracking for Fortune 500 companies  
 
 ---
 
@@ -53,12 +61,11 @@ I'm actively pursuing Security Engineer and Cloud Security roles where I can lev
 
 ## 🚀 Currently Exploring
 
-- 🔄 SOAR Automation with Shuffle  
-- 🧠 AI-powered threat detection  
-- 🧰 CI/CD Security & IaC validation  
-- 🎯 Transitioning to a Security Engineer / Cloud Security Engineer role  
+- 🔁 CI/CD Security & DevSecOps  
+- 🧠 AI in Threat Detection  
+- ☁️ Infrastructure as Code Security (Terraform, CloudFormation)  
+- 🎯 Transitioning into a Security Engineer or Cloud Security role  
 
 ---
 
-_Thanks for visiting my profile! I'm always open to connecting with like-minded professionals in cloud security and cybersecurity._
-
+Thanks for visiting my GitHub! Feel free to connect or explore the hands-on projects above.
