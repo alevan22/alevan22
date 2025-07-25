@@ -1,59 +1,64 @@
-# Hello, I am Allie Evan
-<a href='https://www.linkedin.com/in/allie-evan/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# 👋 Hello, I’m Allie Evan
 
-[Brief Introduction - Remove this afterwards]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/allie-evan/)
 
-I am a recent graduate from Virginia Tech with a Bachlors in Science in BuisnessI with a profound interest in technology and a dedication to solving complex problems.
+---
 
-## Objective
-[Provide Objective - Remove this afterwards]]
+🎓 **Virginia Tech Graduate** | 🔐 **Cybersecurity & Cloud Enthusiast**  
+💼 **PwC – Digital Assurance & Transparency Associate**  
+📍 Arlington, VA | 📁 Security Engineering & Cloud Projects
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+---
 
-## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+## 🧭 About Me
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+I’m a recent graduate from Virginia Tech with a B.S. in Business Information Technology – Cybersecurity (4.0 GPA, Summa Cum Laude). Currently working at PwC, I focus on IT risk and controls for large financial services firms, while building hands-on experience in cloud security, threat detection, and automation through labs and independent projects.
 
-## Certifications
-- [Security+ ](https://github.com/alevan22/alevan22/blob/main/Certifications/CompTIA%20Security%2B%20ce%20certificate.pdf)
-- 
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+I'm actively pursuing Security Engineer and Cloud Security roles where I can leverage my technical curiosity, cloud expertise, and drive to build resilient systems.
 
+---
 
-## Projects
-- Detection Lab
-- SOC Automation Project
+## 🛠️ Skills & Focus Areas
 
-## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+| Skill Area | Tools / Experience |
+|------------|---------------------|
+| **Cloud Security** | AWS IAM, KMS, S3, CloudTrail, Cognito, Lambda, CloudFormation |
+| **Security Engineering** | Suricata, Nessus, Metasploit, OPNsense, Security Onion |
+| **Threat Detection & IR** | MITRE ATT&CK, SIEM, IDS/IPS, SOC workflows |
+| **Risk & Compliance** | NIST 800-53/171, COBIT, ITGCs, SOX, Audit Automation |
+| **Automation & Reporting** | Power BI, Power Automate, Python, VBA, Bash |
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+---
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+## 📁 Featured Projects
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+| Project | Description |
+|--------|-------------|
+| [OPNsense HA Firewall Cluster](https://github.com/alevan22/projects/tree/main/opnsense-ha-firewall-cluster) | Deployed a redundant firewall setup using CARP, pfSync, and XML-RPC sync in a virtual lab. |
+| [Suricata IDS Tuning](https://github.com/alevan22/projects/tree/main/Suricata_IDS_Rule_Tuning) | Tuned detection rules for port scans and malware, tested traffic using Kali Linux. |
+| [AWS IAM Misconfig Remediation](https://github.com/alevan22/projects/tree/main/IAM_Misconfiguration_Remediation_AWS) | Identified and remediated overprivileged IAM roles in AWS. |
+| [Power BI Compliance Dashboard](https://github.com/alevan22/projects/tree/main/PowerBI_Compliance_Dashboard) | Visualized SOX/NIST control gaps and remediation trends using audit log data. |
+| [AWS Cognito + API Gateway Auth](https://github.com/alevan22/projects/tree/main/AWS_Cognito_API_Gateway_Auth_Lab) | Built secure API access control using Cognito tokens and authorizers. |
+| [Penetration Test – DVWA](https://github.com/alevan22/projects/tree/main/penetration-testing-dvwa) | Led a web server penetration test using Nessus, Burp Suite, and Metasploit. |
+| [AWS Drift Detection Automation](https://github.com/alevan22/projects/tree/main/aws-cloudformation-drift-detection) | Auto-remediated CloudFormation drift using EventBridge and Lambda. |
 
+---
+
+## 📜 Certifications
+
+- ✅ CompTIA Security+  
+- ✅ AWS Certified Cloud Practitioner  
+
+---
+
+## 🚀 Currently Exploring
+
+- 🔄 SOAR Automation with Shuffle  
+- 🧠 AI-powered threat detection  
+- 🧰 CI/CD Security & IaC validation  
+- 🎯 Transitioning to a Security Engineer / Cloud Security Engineer role  
+
+---
+
+_Thanks for visiting my profile! I'm always open to connecting with like-minded professionals in cloud security and cybersecurity._
 
