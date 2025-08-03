@@ -1,8 +1,6 @@
 # AWS VPC Peering: Marketing & IT Department Lab
 
-This lab demonstrates how to implement **secure and functional VPC peering** between two Amazon Virtual Private Clouds in a simulated multi-department enterprise environment.
-
-The scenario was completed in the AWS Skill Builder SimuLearn platform with real-time access to the AWS Console.
+This lab demonstrates how to implement **secure and functional VPC peering** between two Amazon Virtual Private Clouds in a simulated multi-department enterprise environment
 
 ---
 
