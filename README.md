@@ -14,13 +14,11 @@
 
 | Project | Description |
 |--------|-------------|
-| [OPNsense HA Firewall Cluster](https://github.com/alevan22/projects/tree/main/opnsense-ha-firewall-cluster) | Deployed a redundant firewall setup using CARP, pfSync, and XML-RPC sync in a virtual lab. |
-| [Suricata IDS Tuning](https://github.com/alevan22/projects/tree/main/Suricata_IDS_Rule_Tuning) | Tuned Suricata IDS rules for port scans and malware, simulating attacks with Kali Linux. |
-| [AWS IAM Misconfiguration Remediation](https://github.com/alevan22/projects/tree/main/IAM_Misconfiguration_Remediation_AWS) | Audited and remediated IAM misconfigurations following least privilege. |
-| [Power BI Compliance Dashboard](https://github.com/alevan22/projects/tree/main/PowerBI_Compliance_Dashboard) | Visualized NIST/SOX control gaps using audit data and tracked remediation metrics. |
-| [AWS Cognito + API Gateway Auth Lab](https://github.com/alevan22/projects/tree/main/AWS_Cognito_API_Gateway_Auth_Lab) | Built secure API authentication using Cognito user pools and JWTs. |
-| [Penetration Testing – DVWA](https://github.com/alevan22/projects/tree/main/penetration-testing-dvwa) | Identified and documented web app vulnerabilities using Nessus, Burp Suite, and Metasploit. |
-| [CloudFormation Drift Detection Automation](https://github.com/alevan22/projects/tree/main/aws-cloudformation-drift-detection) | Deployed automated AWS drift detection and remediation using Lambda and EventBridge. |
+| [CloudFormation Drift Detection Lab](https://github.com/alevan22/alevan22/tree/main/Projects/AWS%20CloudFormation%20Drift%20Detection%20%26%20Auto-Remediation) |Implemented an automated CloudFormation drift detection solution using AWS Lambda, SNS, and EventBridge, with alerting for drifted resources. |
+| [AWS VPC Peering](https://github.com/alevan22/alevan22/tree/main/Projects/aws-vpc-peering-marketing-it-lab) | Implement secure and functional VPC peering between two Amazon Virtual Private Clouds for a multi-department enterprise environment. |
+| [Suricata IDS Tuning](https://github.com/alevan22/alevan22/tree/main/Projects/High%20Availability%20Firewall%20Lab%20with%20OPNsense) |  Built a redundant firewall cluster using OPNsense,Tuned Suricata IDS rules for port scans and malware. |
+| [Penetration Test Humblify](https://github.com/alevan22/alevan22/blob/main/Projects/Humbleify%20Penetration%20Test/README.md) | Identified and documented web app vulnerabilities using Nessus, Burp Suite, and Metasploit. |
+
 
 ---
 
