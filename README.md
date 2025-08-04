@@ -38,9 +38,11 @@
 
 ### **PwC – Digital Assurance & Transparency Associate**  
 *Jul 2024 – Present* | Washington, DC  
+- Helped secure a multimillion-dollar client contract by translating technical remediation plans into executive-aligned proposals
+- Automated compliance tracking for 350+ controls across 12 apps in 14 regions leveraging Power BI, DAX, and Power Automate, cutting reporting time by 50%.
+- Helped secured a $2M+ SOX SDLC Remediation contract through development of pitch materials, identification of security and compliance gaps in DevOps processes, and implementation of scalable remediation controls.
+- Assessed and configured 25+ IAM, SSO, and network controls across hybrid cloud migration for 10,000+ users, reducing misconfiguration risks by 30%.
 - Supported ITGC and cloud compliance testing for top-tier financial institutions  
-- Automated control reporting and remediation tracking using Power BI and Power Automate  
-- Helped secure a multimillion-dollar client contract by translating technical remediation plans into executive-aligned proposals  
 - Collaborated cross-functionally with DevOps, engineering, and compliance teams to assess IAM, change management, and access reviews in hybrid enviroments 
 
 ### **KPMG – Technology Risk Consulting Intern**  
