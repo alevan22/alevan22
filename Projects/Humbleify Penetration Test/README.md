@@ -66,6 +66,6 @@ This repository documents a team-based penetration test conducted on a duplicate
 
 ---
 
-## Screenshot
-![Humbleify Report Screenshot](humbleify_report.png)
+## Full Report
+![Humbleify Report Screenshot](https://github.com/alevan22/alevan22/blob/main/Projects/Humbleify%20Penetration%20Test/Humblify%20Penetration%20Test.pdf)
 
