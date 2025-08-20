@@ -2,9 +2,9 @@
 # Mini AppSec Lab — Secure Code Review + GitLab CI (TypeScript/Express)
 
 **Purpose**  
-A tiny, intentionally vulnerable TypeScript/Express app to practice AppSec workflows in **GitLab**: Issues, Merge Requests, CI jobs for **SAST/SCA/secret scanning**, and documentation. Scope fits a **4–6 hour** build.
+A small, intentionally vulnerable TypeScript/Express app to practice AppSec workflows in **GitLab**: Issues, Merge Requests, CI jobs for **SAST/SCA/secret scanning**, and documentation. 
 
-**What you’ll show**  
+**Demonstrates**  
 - Ability to triage issues with **repro steps**, **STRIDE** notes, and **CVSS** estimates.  
 - Ability to fix issues via **MR** with linked **CI artifacts**.  
 - Ability to document and ship a **security release** with a checklist.
