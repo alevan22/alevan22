@@ -1,12 +1,8 @@
-# Secure GitLab CI/CD Pipeline for a Python Web App (Test → Build → Push → Deploy to **AWS EC2**)
+# GitLab CI/CD Pipeline for a Python Web App (Test → Build → Push → Deploy to **AWS EC2**)
 
 A production‑style CI/CD lab that demonstrates how I design secure pipelines: unit tests, container build, registry push to a private repo, and an automated deploy to an Ubuntu‑based **EC2** instance over SSH. Built on GitLab’s managed runners and Docker‑in‑Docker.
 
----GitLab CI/CD Pipeline for a Python Web App (Test → Build → Push → Deploy to **AWS EC2**)
 
-A production‑style CI/CD lab that demonstrates how I design secure pipelines: unit tests, container build, registry push to a private repo, and an automated deploy to an Ubuntu‑based **EC2** instance over SSH. Built on GitLab’s managed runners and Docker‑in‑Docker.
-
----
 
 ## Outcome
 
@@ -60,7 +56,7 @@ flowchart LR
 └── README.md
 ```
 
-![\$1](./Screenshots/\$2)
+./Screenshots/cicd-overview-diagram.png
 
 ![\$1](./Screenshots/\$2)
 
