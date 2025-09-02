@@ -34,8 +34,6 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 ├── .gitlab-ci.yml                     # pipeline config
 ├── makefile                           # includes `make test`, `make run`
 └── README.md
-```
-
 .
 ├── app/                 # demo app source
 │   └── tests/           # pytest tests executed in CI
