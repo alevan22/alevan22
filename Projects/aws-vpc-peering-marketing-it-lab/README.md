@@ -74,7 +74,7 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Demonstrated **effective route table configuration** and **network isolation**
 - Used **SSM for secure, keyless instance access**
 
-  📷 ![Updated Security Groups](./Screenshots/Updated-security-groups.png)
+  📷 ![Security Groups](./Screenshots/Updated-security-groups.png)
 
 ---
 
