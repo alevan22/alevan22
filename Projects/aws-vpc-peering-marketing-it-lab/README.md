@@ -41,7 +41,6 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Created `Marketing VPC` and `IT VPC` with distinct CIDR blocks.
 - Launched one EC2 instance in each VPC with SSM enabled.
 
-(No screenshot taken for this step.)
 
 ---
 
@@ -49,7 +48,6 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Created a **VPC peering connection** between the two VPCs.
 - Accepted the request on the peer VPC side.
 
-📷 (Consider adding a screenshot for peering request/acceptance here if available.)
 
 ---
 
@@ -57,7 +55,7 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Updated the **Marketing VPC’s route table** to allow routing to the IT VPC (172.31.0.0/16).
 - Ensured public subnet had internet access via IGW.
 
-📷 ![Route Table](./screenshots/route-table.png)
+📷 ![Route Table](./Screenshots/route-table.png)
 
 ---
 
@@ -65,7 +63,7 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Used AWS Systems Manager (SSM) to securely connect to the EC2 instance.
 - Successfully pinged the EC2 instance in the IT VPC from the Marketing VPC to validate peering.
 
-📷 ![Ping Test](./screenshots/ping-test.png)
+📷 ![Ping Test](./Screenshots/ping-test.png)
 
 ---
 
