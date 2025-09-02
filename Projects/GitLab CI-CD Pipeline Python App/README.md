@@ -14,25 +14,8 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 ---
 
 ## Architecture
-flowchart LR
-  A[Commit / MR] --> B[run_tests]
-  B --> C[build_image]
-  C --> D[deploy_to_ec2]
 
-  subgraph GitLab CI (Managed Runners)
-  B
-  C
-  D
-  end
-
-  subgraph AWS
-  E[(EC2 Ubuntu Host)]
-  end
-
-  D -->|SSH + docker run| E
-```
-
-![Architecture Diagram](./Screenshots/connection-diagram.png)
+![Early Github CI CD Diagram](./Screenshots/Early_Github_CI_CD_Diagram.png)
 
 
 ---
@@ -52,7 +35,6 @@ flowchart LR
 ├── makefile                           # includes `make test`, `make run`
 └── README.md
 ```
-![VS Code: templates & structure](./Screenshots/vscode-python-demo-templates.png)
 
 .
 ├── app/                 # demo app source
@@ -63,6 +45,7 @@ flowchart LR
 
 ````
 
+![VS Code: templates & structure](./Screenshots/vscode-python-demo-templates.png)
 ---
 
 ## Prerequisites
