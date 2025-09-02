@@ -67,7 +67,6 @@ sudo systemctl enable --now docker
 # (Optional) Allow non-root docker usage after next login
 sudo usermod -aG docker ubuntu
 ````
-![PowerShell AWS CLI verified](./Screenshots/powershell-aws-cli-verified.png)
 
 
 
@@ -158,6 +157,8 @@ deploy_to_ec2:
 
 **Pipeline evidence**
 ![GitLab pipeline stages](./Screenshots/gitlab-pipeline-stages.png)
+<img width="941" height="422" alt="image" src="https://github.com/user-attachments/assets/94bf5228-23d5-4a9f-a467-0e126e5198ad" />
+
 When finished, remove the instance or lock down the security group.
 
 ---
