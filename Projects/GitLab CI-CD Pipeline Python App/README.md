@@ -15,7 +15,7 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 
 ## Architecture
 
-![Early Github CI CD Diagram](./Screenshots/Early-Github-CI-CD-Diagram.png)
+![Early-Github-CI-CD-Diagram](./Screenshots/Early-Github-CI-CD-Diagram.png)
 
 
 ---
