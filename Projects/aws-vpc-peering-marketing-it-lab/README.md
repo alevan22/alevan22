@@ -33,7 +33,7 @@ The city’s **Marketing department** requires its own isolated VPC while still 
 ### ✅ 1. Reviewed Architecture Requirements
 I reviewed the proposed architecture: users authenticate via Amazon Cognito, invoke Lambda via API Gateway, and route traffic between two VPCs.
 
-📷 ![Architecture Diagram](./screenshots/architecture.png)
+📷 ![Architecture Diagram](./Screenshots/architecture.png)
 
 ---
 
