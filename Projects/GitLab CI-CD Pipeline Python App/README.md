@@ -15,7 +15,7 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 
 ## Architecture
 
-![Early-Github-CI-CD-Diagram](./Screenshots/Early-Github-CI-CD-Diagram.png)
+![Early-Github-CI-CD-Diagram](./Screenshots/Early%Github%CI%CD%Diagram.png)
 
 
 ---
@@ -66,7 +66,8 @@ sudo systemctl enable --now docker
 # (Optional) Allow non-root docker usage after next login
 sudo usermod -aG docker ubuntu
 ````
-![AWS CLI verified on Windows PowerShell](./Screenshots/powershell-aws-cli-verified.png)
+![PowerShell AWS CLI verified](./Screenshots/powershell-aws-cli-verified.png)
+
 
 
 > Ensure your EC2 security group allows inbound **5000/tcp** if you want to access the app from a browser.
@@ -155,9 +156,8 @@ deploy_to_ec2:
 ---
 
 **Pipeline evidence**
-
+![GitLab job log pushing Docker image](./Screenshots/gitlab-job-log-docker-push.png)
 ![GitLab pipeline stages](./Screenshots/gitlab-pipeline-stages.png)
-![Job log pushing image to Docker Hub](./Screenshots/gitlab-job-log-docker-push.png)
 When finished, remove the instance or lock down the security group.
 
 ---
