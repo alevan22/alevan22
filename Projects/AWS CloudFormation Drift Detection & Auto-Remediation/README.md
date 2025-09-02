@@ -3,7 +3,7 @@
 
 This project implements an automated CloudFormation drift detection solution using **AWS Lambda**, **SNS**, and **EventBridge**, with alerting for drifted resources.
 
-![Structure diagram](../Screenshots/AWS-CloudForm-Structure.png)
+![AWS CloudFormation structure](./AWS-CloudForm-Structure.png)
 
 ---
 
