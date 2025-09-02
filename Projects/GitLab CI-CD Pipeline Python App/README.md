@@ -34,9 +34,8 @@ flowchart LR
   D -->|SSH + docker run| E
 ```
 
-![\$1](./Screenshots/connection-diagram.png)
+![Architecture Diagram](./Screenshots/connection-diagram.png)
 
-![\$1](./Screenshots/\$2)
 
 ---
 
