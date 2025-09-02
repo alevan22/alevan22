@@ -15,7 +15,7 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 
 ## Architecture
 
-![Early Github CI CD Diagram](./Screenshots/Early_Github_CI_CD_Diagram.png)
+![Early Github CI CD Diagram](./Screenshots/Early-Github-CI-CD-Diagram.png)
 
 
 ---
@@ -45,7 +45,6 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 
 ````
 
-![VS Code: templates & structure](./Screenshots/vscode-python-demo-templates.png)
 ---
 
 ## Prerequisites
@@ -74,7 +73,6 @@ sudo usermod -aG docker ubuntu
 
 > Ensure your EC2 security group allows inbound **5000/tcp** if you want to access the app from a browser.
 
-> Ensure your EC2 security group allows inbound **5000/tcp** if you want to access the app from a browser.
 
 ---
 
