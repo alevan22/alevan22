@@ -15,7 +15,7 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 
 ## Architecture
 
-![Early-Github-CI-CD-Diagram](./Screenshots/Early%Github%CI%CD%Diagram.png)
+![Early Github CI/CD Diagram](./Screenshots/Early%20Github%20CI%20CD%20Diagram.png)
 
 
 ---
@@ -44,6 +44,7 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 ````
 
 ---
+![VS Code Python demo templates](./Screenshots/vscode-python-demo-templates.png)
 
 ## Prerequisites
 - **GitLab project** with shared runners enabled
@@ -156,7 +157,6 @@ deploy_to_ec2:
 ---
 
 **Pipeline evidence**
-![GitLab job log pushing Docker image](./Screenshots/gitlab-job-log-docker-push.png)
 ![GitLab pipeline stages](./Screenshots/gitlab-pipeline-stages.png)
 When finished, remove the instance or lock down the security group.
 
