@@ -23,9 +23,7 @@ This repository documents a team-based penetration test conducted on a duplicate
 - MySQL with no encryption or access control.
 
 ### 2️⃣ Initial Access
-- Brute-force employee accounts:
-  ```bash
-  hydra -L users.txt -P passwords.txt ssh://<target>
+- Brute-force employee accounts through hydra:
   ```
   Validated 7 accounts with weak passwords.
 
@@ -41,8 +39,7 @@ This repository documents a team-based penetration test conducted on a duplicate
 
 ### 5️⃣ Privilege Escalation
 - Identified insecure `sudo` permissions:
-  ```bash
-  sudo -l
+ 
   ```
   Escalated to root via misconfigured cron job.
 
