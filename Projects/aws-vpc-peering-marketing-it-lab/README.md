@@ -55,7 +55,7 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Updated the **Marketing VPC’s route table** to allow routing to the IT VPC (172.31.0.0/16).
 - Ensured public subnet had internet access via IGW.
 
-📷 ![Route Table](./Screenshots/route-table.png)
+📷 ![Route Table](./Screenshots/Updated-Routing-tables.png)
 
 ---
 
@@ -63,7 +63,8 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - Used AWS Systems Manager (SSM) to securely connect to the EC2 instance.
 - Successfully pinged the EC2 instance in the IT VPC from the Marketing VPC to validate peering.
 
-📷 ![Ping Test](./Screenshots/ping-test.png)
+📷 ![Ping Test](./Screenshots/Finance-ping-test.png)
+
 
 ---
 
@@ -72,6 +73,8 @@ I reviewed the proposed architecture: users authenticate via Amazon Cognito, inv
 - **Established secure communication** between two VPCs across departments
 - Demonstrated **effective route table configuration** and **network isolation**
 - Used **SSM for secure, keyless instance access**
+
+  📷 ![Updated Security Groups](./Screenshots/Updated-security-groups.png)
 
 ---
 
