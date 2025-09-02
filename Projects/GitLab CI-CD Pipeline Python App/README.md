@@ -1,4 +1,4 @@
-# Secure GitLab CI/CD Pipeline for a Python Web App (Test → Build → Push → Deploy to **AWS EC2**)
+GitLab CI/CD Pipeline for a Python Web App (Test → Build → Push → Deploy to **AWS EC2**)
 
 A production‑style CI/CD lab that demonstrates how I design secure pipelines: unit tests, container build, registry push to a private repo, and an automated deploy to an Ubuntu‑based **EC2** instance over SSH. Built on GitLab’s managed runners and Docker‑in‑Docker.
 
@@ -16,9 +16,8 @@ A production‑style CI/CD lab that demonstrates how I design secure pipelines: 
 ## Architecture
 
 ```mermaid
-mermaid
 flowchart LR
-  A[Commit / Merge Request] --> B[run_tests]
+  A[Commit / MR] --> B[run_tests]
   B --> C[build_image]
   C --> D[deploy_to_ec2]
 
@@ -35,7 +34,9 @@ flowchart LR
   D -->|SSH + docker run| E
 ```
 
-![CI/CD overview](sandbox:/mnt/data/gitlab-ci-portfolio-assets/cicd-overview-diagram.png)
+![\$1](./Screenshots/connection-diagram.png)
+
+![\$1](./Screenshots/\$2)
 
 ---
 
@@ -43,14 +44,21 @@ flowchart LR
 
 ```
 .
-├── app/                 # demo app source
-│   └── tests/           # pytest tests executed in CI
-├── Dockerfile           # builds Python web app (exposes 5000)
-├── Makefile             # includes `make test`, `make run`
-└── .gitlab-ci.yml       # pipeline config
+├── .devcontainer/ .github/ .vscode/   # developer tooling
+├── deploy/                            # (optional) infra or scripts
+├── src/                               # application source
+│   └── app/                           # Flask app
+│       └── tests/                     # pytest tests executed in CI (path may be src/app/tests)
+├── tests/                             # (legacy) tests folder in template repos
+├── Dockerfile                         # builds Python web app (exposes 5000)
+├── .gitlab-ci.yml                     # pipeline config
+├── makefile                           # includes `make test`, `make run`
+└── README.md
 ```
 
-![VS Code: templates & project structure](sandbox:/mnt/data/gitlab-ci-portfolio-assets/vscode-python-demo-templates.png)
+![\$1](./Screenshots/\$2)
+
+![\$1](./Screenshots/\$2)
 
 .
 ├── app/                 # demo app source
@@ -85,7 +93,7 @@ sudo systemctl enable --now docker
 sudo usermod -aG docker ubuntu
 ````
 
-![AWS CLI verified on Windows PowerShell](sandbox:/mnt/data/gitlab-ci-portfolio-assets/powershell-aws-cli-verified.png)
+![\$1](./Screenshots/\$2)
 
 > Ensure your EC2 security group allows inbound **5000/tcp** if you want to access the app from a browser.
 
@@ -117,9 +125,9 @@ make test                 # installs deps via pip, runs pytest
 PORT=5004 make run        # http://localhost:5004
 ```
 
-![Unit tests passing and local run](sandbox:/mnt/data/gitlab-ci-portfolio-assets/pytest-pass-and-local-run.png)
+![\$1](./Screenshots/\$2)
 
-![Flask demo UI on localhost:5000](sandbox:/mnt/data/gitlab-ci-portfolio-assets/flask-demo-ui-localhost.png)
+![\$1](./Screenshots/\$2)
 
 ---
 
@@ -189,9 +197,9 @@ deploy_to_ec2:
 
 **Pipeline evidence**
 
-![GitLab pipeline stages (test → build → deploy)](sandbox:/mnt/data/gitlab-ci-portfolio-assets/gitlab-pipeline-stages.png)
+![\$1](./Screenshots/\$2)
 
-![Job log pushing image to Docker Hub](sandbox:/mnt/data/gitlab-ci-portfolio-assets/gitlab-job-log-docker-push.png)
+![\$1](./Screenshots/\$2)
 
 When finished, remove the instance or lock down the security group.
 
