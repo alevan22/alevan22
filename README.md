@@ -6,7 +6,8 @@ Security Engineer • Cloud Security • Cybersecurity • Threat Detection and 
 ---
  **Virginia Tech Graduate** | **WiCyS Member**
  **PwC – Digital Assurance Associate**
-📍 Arlington, VA | 📁 Security Engineering & Cloud Projects
+
+| 📁 Security Engineering & Cloud Projects
 
 ---
 
@@ -24,7 +25,7 @@ Security Engineer • Cloud Security • Cybersecurity • Threat Detection and 
 
 ---
 
-## 🧠 Skills & Focus Areas
+##  Skills & Focus Areas
 
 | Skill Area                 | Tools / Experience                                                                      |
 | -------------------------- | --------------------------------------------------------------------------------------- |
@@ -37,7 +38,7 @@ Security Engineer • Cloud Security • Cybersecurity • Threat Detection and 
 
 ---
 
-## 💼 Experience
+##  Experience
 
 ### **PwC – Digital Assurance & Transparency Associate**
 
