@@ -1,4 +1,4 @@
-# 👋 Hello, I’m Allie Evan
+# Allie Evan
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/allie-evan/)
 
@@ -14,12 +14,14 @@
 
 | Project                                                                                                                                                                              | Description                                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GitLab CI/CD → EC2 (Dockerized Python App](https://github.com/alevan22/alevan22/tree/main/Projects/GitLab%20CI-CD%20Pipeline%20Python%20App)                                         | Pipeline with **test → build → deploy**: dockerizes app, pushes to Docker Hub, and SSH‑deploys to Ubuntu EC2 with masked CI variables and branch rules.                      |
+| 🆕 **Elastic SIEM + Tines: Automated Alert Triage & Email Summaries** *(WIP link)*                                                                                                   | Deployed Elastic Agent on a Windows host in AWS, created detections, and integrated Elastic → **Tines** to enrich alerts and send AI‑generated incident summaries via email. |
 | [AWS CloudFormation Drift Detection & Auto‑Remediation](https://github.com/alevan22/alevan22/tree/main/Projects/AWS%20CloudFormation%20Drift%20Detection%20%26%20Auto-Remediation)   | Automated drift detection with EventBridge → Lambda → SNS, tagging drifted resources and notifying owners for remediation.                                                   |
 | [AWS VPC Peering (Marketing ↔ IT)](https://github.com/alevan22/alevan22/tree/main/Projects/aws-vpc-peering-marketing-it-lab)                                                         | Implemented secure, route‑controlled VPC peering between two departments with least‑privilege SG/RT updates and cross‑VPC connectivity tests.                                |
 | [High‑Availability OPNsense Firewall (CARP + pfSync) + Suricata IDS](https://github.com/alevan22/alevan22/tree/main/Projects/High%20Availability%20Firewall%20Lab%20with%20OPNsense) | Built redundant OPNsense pair with virtual IP failover; tuned 50+ Suricata rules for port scans/malware while maintaining app availability.                                  |
 | [Penetration Test: Humbleify Web App](https://github.com/alevan22/alevan22/blob/main/Projects/Humbleify%20Penetration%20Test/README.md)                                              | Identified and documented XSS and access control issues; validated findings with Burp, Nessus, Metasploit; risk‑rated and proposed fixes.                                    |
 | 🆕 **Elastic SIEM + Tines: Automated Alert Triage & Email Summaries** *(WIP link)*                                                                                                   | Deployed Elastic Agent on a Windows host in AWS, created detections, and integrated Elastic → **Tines** to enrich alerts and send AI‑generated incident summaries via email. |
-| 🆕 **GitLab CI/CD → EC2 (Dockerized Python App)** *(WIP link)*                                                                                                                       | Pipeline with **test → build → deploy**: dockerizes app, pushes to Docker Hub, and SSH‑deploys to Ubuntu EC2 with masked CI variables and branch rules.                      |
+| [GitLab CI/CD → EC2 (Dockerized Python App](https://github.com/alevan22/alevan22/tree/main/Projects/GitLab%20CI-CD%20Pipeline%20Python%20App)                                         | Pipeline with **test → build → deploy**: dockerizes app, pushes to Docker Hub, and SSH‑deploys to Ubuntu EC2 with masked CI variables and branch rules.                      |
 
 
 ---
