@@ -5,6 +5,7 @@ Security Engineer • Cloud Security • Cybersecurity • Threat Detection and 
 
 ---
  **Virginia Tech Graduate** | **WiCyS Member**
+ 
  **PwC – Digital Assurance Associate**
 
 | 📁 Security Engineering & Cloud Projects
