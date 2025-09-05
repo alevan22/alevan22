@@ -4,9 +4,7 @@ Security Engineer • Cloud Security • Cybersecurity • Threat Detection and 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/allie-evan/)
 
 ---
- **Virginia Tech Graduate** | **WiCyS Member** | **Cybersecurity and Cloud Enthusist**
- 
- **PwC – Digital Assurance Associate**
+| **PwC – Digital Assurance Associate** | **WiCyS Member** | **Cybersecurity and Cloud Enthusist** | **Virginia Tech Graduate**
 
 | 📁 Security Engineering & Cloud Projects
 
