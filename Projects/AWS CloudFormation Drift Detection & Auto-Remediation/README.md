@@ -3,7 +3,6 @@
 ## Summary
 A startup needs rapid, compliant infrastructure delivery. This project implements automatic **drift detection and remediation** for an AWS CloudFormation-managed environment using **AWS Lambda** on an **Amazon EventBridge** schedule. When resources drift from the template, the Lambda function detects changes via CloudFormation’s drift APIs and **reverses unauthorized configuration changes** to restore compliance.
 
-**Target roles:** Cybersecurity • Security Engineering • Cloud Security
 
 ---
 
