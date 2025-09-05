@@ -10,9 +10,6 @@ This combined lab demonstrates how to design and enforce **secure network commun
 - **Network plane:** Two VPCs (Marketing & IT) with distinct CIDR blocks are **peered**. Route tables allow only the required inter‑VPC traffic; **Security Groups** and **NACLs** restrict access. **SSM Session Manager** is used for keyless, port‑closed instance access.
 - **API plane (Zero‑Trust):** **Amazon Cognito** issues ID tokens; **API Gateway** validates tokens via a user‑pool **JWT authorizer**, invokes **AWS Lambda**, and returns responses. **AWS WAF** (optional) adds rate‑limits and managed rules (SQLi/XSS). **CloudWatch Logs** provide auditing.
 
-![VPC Architecture](./Screenshots/01a-vpc-architecture.png)
-
-![API Architecture](./Screenshots/01b-api-architecture.png)
 
 ---
 
