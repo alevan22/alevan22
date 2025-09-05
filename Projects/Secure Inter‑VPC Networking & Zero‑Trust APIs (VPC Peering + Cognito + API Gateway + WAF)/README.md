@@ -61,6 +61,8 @@ This combined lab demonstrates how to design and enforce **secure network commun
 ### Steps
 1. **Create Amazon Cognito User Pool**  
    - Configure domains, app client, and hosted UI if desired.
+  
+   
    ![Cognito User Pool](./Screenshots/08-cognito-user-pool.png)
 
 2. **Deploy API Gateway + Lambda**  
@@ -134,10 +136,3 @@ This combined lab demonstrates how to design and enforce **secure network commun
 └─ README.md
 ```
 
----
-
-## Screenshots (expected filenames)
-- `01a-vpc-architecture.png`
-- `01b-api-architecture.png`
-- `06-ping-test.png`
-- `07-security-groups.png`
