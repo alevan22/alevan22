@@ -1,7 +1,7 @@
 
 # Automating AWS Services with Scripting and the AWS CLI
 
-This lab demonstrates how to automate AWS service operations using the AWS Console, CLI, and SDK. You’ll gain hands-on experience in infrastructure automation, secure access, scripting, and cost optimization using Python, EC2, S3, CloudWatch, and more.
+This lab demonstrates how to automate AWS service operations using the AWS Console, CLI, and SDK. Gaining hands-on experience in infrastructure automation, secure access, scripting, and cost optimization using Python, EC2, S3, CloudWatch, and more.
 
 ---
 
