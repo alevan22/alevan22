@@ -122,7 +122,7 @@ This project demonstrates **preventive & detective controls** and **automated co
 
 ---
 
-## Metrics to Track (for resumes & interviews)
+## Metrics to Track 
 - **MTTD/MTTR for drift**, number of **drifts/month**, **% auto-remediated**, **false positives**, and **time saved** vs. manual checks.  
 - Map outcomes to **NIST 800-53** families (e.g., **CM-2/CM-3/CM-6**, **AU-2/AU-6**) and **CIS AWS** controls where applicable.
 
@@ -140,24 +140,3 @@ This project demonstrates **preventive & detective controls** and **automated co
 
 ---
 
-## Screenshots
-- `01-architecture-overview.png` – End-to-end flow (S3 → CloudFormation → EventBridge → Lambda → CloudWatch).  
-- `02-s3-template-and-stack.png` – Template in S3 + CloudFormation stack view.  
-- `03-eventbridge-rule.png` – Scheduled rule targeting Lambda.  
-- `04-lambda-config.png` – Lambda configuration pane (runtime/permissions).  
-- `05-cloudwatch-remediation-logs.png` – Logs showing detection & remediation steps.  
-- `06-drift-in-sync.png` – CloudFormation drift status back to **IN_SYNC**.  
-- `07-iam-role-policy.png` – IAM role policy/permissions (least privilege).
-
----
-
-## Future Enhancements
-- **SNS/Email/Slack alerts** on drift detected/remediated.  
-- **Selective remediation modes** (tag-based scoping, dry-run).  
-- **SIEM integration** (Elastic/Chronicle/Splunk) for centralized monitoring.  
-- **Change Set previews** prior to remediation for higher-risk resources.
-
----
-
-## Author
-Allie Evan — Cloud & Security Engineering Portfolio
