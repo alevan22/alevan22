@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f8fafc"/>
+
+<style>
+    .title { font: 700 30px 'DejaVu Sans', Arial, sans-serif; fill:#0f172a; }
+    .subtitle { font: 400 15px 'DejaVu Sans', Arial, sans-serif; fill:#475569; }
+    .label { font: 700 18px 'DejaVu Sans', Arial, sans-serif; fill:#0f172a; }
+    .body { font: 400 15px 'DejaVu Sans', Arial, sans-serif; fill:#334155; }
+    .small { font: 400 13px 'DejaVu Sans', Arial, sans-serif; fill:#475569; }
+    .chip { font: 700 13px 'DejaVu Sans', Arial, sans-serif; fill:#0f172a; }
+    .callout { font: 700 15px 'DejaVu Sans', Arial, sans-serif; fill:#1e293b; }
+</style>
+
+<text x="80" y="88" class="title">Humbleify Assessment Network Overview</text>
+<text x="80" y="118" class="subtitle">Portfolio-safe architecture graphic based on the authorized duplicate lab target described in the report.</text>
+
+<rect x="90" y="250" rx="28" ry="28" width="280" height="210" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="130" y="305" class="label">Assessor Workstation</text>
+<text x="130" y="340" class="body">External testing host used for</text>
+<text x="130" y="365" class="body">reconnaissance, enumeration, and</text>
+<text x="130" y="390" class="body">controlled validation activities.</text>
+<rect x="130" y="415" rx="14" ry="14" width="160" height="34" fill="#e2e8f0"/>
+<text x="155" y="438" class="chip">Initial input: target IP</text>
+
+<defs>
+  <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+    <path d="M0,0 L14,7 L0,14 z" fill="#2563eb"/>
+  </marker>
+</defs>
+<line x1="370" y1="355" x2="600" y2="355" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
+<text x="410" y="322" class="callout">Scoped assessment traffic</text>
+
+<rect x="610" y="170" rx="34" ry="34" width="640" height="500" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+<text x="650" y="225" class="label">Humbleify Duplicate Lab Host</text>
+<text x="650" y="255" class="small">Ubuntu 14.04 / Linux 3.13 target described in the report</text>
+
+<rect x="650" y="295" rx="22" ry="22" width="255" height="110" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+<text x="680" y="335" class="label">Web Layer</text>
+<text x="680" y="365" class="body">Apache HTTP service</text>
+<text x="680" y="390" class="body">WebDAV-enabled upload path</text>
+
+<rect x="930" y="295" rx="22" ry="22" width="275" height="110" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+<text x="960" y="335" class="label">Access Services</text>
+<text x="960" y="365" class="body">OpenSSH / ProFTPD</text>
+<text x="960" y="390" class="body">User access boundary</text>
+
+<rect x="650" y="435" rx="22" ry="22" width="255" height="120" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+<text x="680" y="475" class="label">Data Layer</text>
+<text x="680" y="505" class="body">MySQL-backed employee and</text>
+<text x="680" y="530" class="body">customer information store</text>
+
+<rect x="930" y="435" rx="22" ry="22" width="275" height="120" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="960" y="475" class="label">Additional Exposure</text>
+<text x="960" y="505" class="body">RPC / Ingreslock / UnrealIRCd</text>
+<text x="960" y="530" class="body">Expanded attack surface</text>
+
+<rect x="650" y="585" rx="18" ry="18" width="110" height="36" fill="#e2e8f0"/><text x="688" y="608" class="chip">21/FTP</text>
+<rect x="775" y="585" rx="18" ry="18" width="118" height="36" fill="#e2e8f0"/><text x="811" y="608" class="chip">22/SSH</text>
+<rect x="908" y="585" rx="18" ry="18" width="124" height="36" fill="#e2e8f0"/><text x="945" y="608" class="chip">80/HTTP</text>
+<rect x="1047" y="585" rx="18" ry="18" width="126" height="36" fill="#e2e8f0"/><text x="1074" y="608" class="chip">3306/MySQL</text>
+<rect x="1188" y="585" rx="18" ry="18" width="126" height="36" fill="#e2e8f0"/><text x="1215" y="608" class="chip">6667/IRC</text>
+
+<rect x="1285" y="225" rx="28" ry="28" width="255" height="305" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="1315" y="275" class="label">What this diagram shows</text>
+<text x="1320" y="318" class="body">• One exposed host with multiple</text>
+<text x="1320" y="346" class="body">  reachable services</text>
+<text x="1320" y="384" class="body">• Why outdated software, weak</text>
+<text x="1320" y="412" class="body">  credentials, and broad data access</text>
+<text x="1320" y="440" class="body">  combined into meaningful risk</text>
+<text x="1320" y="478" class="body">• Why service reduction and access</text>
+<text x="1320" y="506" class="body">  segmentation mattered</text>
+
+<rect x="80" y="760" rx="22" ry="22" width="1440" height="86" fill="#0f172a"/>
+<text x="120" y="807" style="font:700 18px 'DejaVu Sans', Arial, sans-serif; fill:#ffffff;">Portfolio note:</text>
+<text x="255" y="807" style="font:400 17px 'DejaVu Sans', Arial, sans-serif; fill:#e2e8f0;">This visual is intentionally simplified for public GitHub use and avoids publishing harmful exploit detail or sensitive evidence.</text>
+</svg>

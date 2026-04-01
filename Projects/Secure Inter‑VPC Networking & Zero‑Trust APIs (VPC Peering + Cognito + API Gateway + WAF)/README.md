@@ -100,39 +100,5 @@ This combined lab demonstrates how to design and enforce **secure network commun
 - **Logging & metrics:** CloudWatch metrics/alarms; export to SIEM for detection use‑cases.  
 - **Network isolation:** Separate VPCs, explicit routes, deny by default in SG/NACL.
 
----
 
-## How to Reproduce
-
-### Prerequisites
-- AWS account; IAM permissions for VPC, EC2, SSM, API Gateway, Cognito, Lambda, WAF, CloudWatch.
-- (Optional) VPC endpoints for SSM to keep instances private.
-
-### Part A — VPC Peering
-1. Create **Marketing** and **IT** VPCs with non‑overlapping CIDRs.  
-2. Create subnets + route tables; launch one EC2 per VPC with SSM role attached.  
-3. Create VPC peering; accept on the peer VPC.  
-4. Update route tables on **both** VPCs to the opposite CIDR.  
-5. Restrict SG/NACL; allow only required ports (temporary ICMP for ping).  
-6. Validate via SSM: `ping`, `curl` between instances.
-
-### Part B — Secure API
-1. Create a **Cognito user pool** and app client.  
-2. Build a **Regional API Gateway** + **Lambda** integration.  
-3. Add a **JWT authorizer** pointing to the user pool; require it on methods.  
-4. Acquire token; test calls with `Authorization: Bearer <ID_TOKEN>`.  
-5. (Optional) Attach **AWS WAF** to API Gateway; enable managed rules.  
-6. Monitor CloudWatch logs and set alarms.
-
----
-
-## Repository Structure
-```
-.
-├─ Screenshots/                 # Curated screenshots referenced below
-├─ lambda/                      # (optional) Lambda sources
-├─ api/                         # (optional) API Gateway/SAM/CDK configs
-├─ vpc/                         # (optional) VPC templates or diagrams
-└─ README.md
-```
 
