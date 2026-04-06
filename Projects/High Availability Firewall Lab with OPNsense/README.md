@@ -148,10 +148,6 @@ Layering a stateful firewall (policy enforcement), CARP (availability), and Suri
 
 ---
 
-## Screenshots
 
-*To be added: CARP VIP configuration panel, pfSync status (IN_SYNC), Suricata alert log showing Nmap scan detections, firewall rule table, failover test ping output.*
-
----
 
 Allie Evan · [linkedin.com/in/allie-evan](https://linkedin.com/in/allie-evan) · [github.com/alevan22](https://github.com/alevan22)
