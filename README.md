@@ -40,7 +40,7 @@ WiCyS | Rewriting the Code | Society of Woman Engineers
 ## Experience
 
 ### PwC – Digital Assurance & Transparency Associate
-*Jul 2024 – Present • Washington, DC*
+*Jul 2024 – August 2026 • Washington, DC*
 
 - Helped secure a multimillion-dollar client contract by translating technical remediation plans into executive-aligned proposals.  
 - Automated compliance tracking for 250+ controls across 12 apps in 14 regions using Power BI, DAX, and Power Automate, reducing reporting time by ~50%.  
