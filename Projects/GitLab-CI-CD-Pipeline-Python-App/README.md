@@ -6,7 +6,7 @@ The app has been designed with cloud native demos & containers in mind, in order
 
 Typical uses would be deployment to Kubernetes, demos of Docker, CI/CD (build pipelines are provided), deployment to cloud (Azure) monitoring, auto-scaling
 
-## Screenshot
+
 
 ![screen](https://user-images.githubusercontent.com/14982936/30533171-db17fccc-9c4f-11e7-8862-eb8c148fedea.png)
 
