@@ -3,8 +3,10 @@ Security Engineer • Cloud Security • Threat Detection & AI Integration
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/allie-evan/)
 
-Virginia Tech alum (B.S. Business Information Technology – Cybersecurity) • WiCyS Member  
-PwC – Digital Assurance & Transparency Associate • Arlington, VA
+Cybersecurity Engineering Masters Student at University of San Diego • San Diego California
+Virginia Tech alum (B.S. Business Information Technology – Cybersecurity) 
+WiCyS | Rewriting the Code | Society of Woman Engineers   
+
 
 ---
 
