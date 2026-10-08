@@ -1,9 +1,10 @@
 # Alexandra (Allie) Evan
-Security Engineer • Cloud Security • Threat Detection & AI Integration
+Security Engineer • Artifical Inteligence • LLM Security • Cloud Security • Threat Detection & AI Integration
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/allie-evan/)
 
 Cybersecurity Engineering Masters Student at University of San Diego • San Diego California
+
 Virginia Tech alum (B.S. Business Information Technology – Cybersecurity) 
 WiCyS | Rewriting the Code | Society of Woman Engineers   
 
